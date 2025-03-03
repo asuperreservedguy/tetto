@@ -73,7 +73,8 @@ acceptCookiesBtn.addEventListener('click', () => {
     // .catch(error => {
     //   console.error('Error:', error);
     // });
-  });
+  //});
+//
 }
 
 // FAQ accordion
