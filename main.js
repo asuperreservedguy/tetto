@@ -6,7 +6,7 @@ const navItems = document.querySelectorAll('.nav-links a');
 const cookieBanner = document.getElementById('cookie-banner');
 const acceptCookiesBtn = document.getElementById('accept-cookies');
 const contactForm = document.getElementById('contactForm');
-const formSuccess = document.getElementById('formSuccess');
+//const formSuccess = document.getElementById('formSuccess');
 const faqItems = document.querySelectorAll('.faq-item');
 const testimonials = document.querySelectorAll('.testimonial');
 const dots = document.querySelectorAll('.dot');
@@ -51,13 +51,13 @@ acceptCookiesBtn.addEventListener('click', () => {
 });
 
 // Contact form submission
-if (contactForm) {
+/*if (contactForm) {
   contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
     // Simulate form submission
     contactForm.style.display = 'none';
-    formSuccess.style.display = 'block';
+    formSuccess.style.display = 'block';*/
     
     // In a real implementation, you would send the form data to a server
     // const formData = new FormData(contactForm);
