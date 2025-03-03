@@ -75,7 +75,7 @@ acceptCookiesBtn.addEventListener('click', () => {
     // });
   //});
 //
-}
+//}
 
 // FAQ accordion
 faqItems.forEach(item => {
